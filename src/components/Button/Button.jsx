@@ -15,7 +15,7 @@ export const Button = ({
     display: "inline-block",
     lineHeight: 1,
     backgroundColor: primary ? "#2563EB" : backgroundColor,
-    color: primary ? "#F3F4F6" : color,
+    color: primary ? "#ffffff" : color,
   };
   return (
     <button type="button" onClick={onClick} style={buttonStyles}>
