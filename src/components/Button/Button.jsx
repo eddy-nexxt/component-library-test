@@ -1,4 +1,5 @@
-import * as React from "react";
+import React from "react";
+import "../../styles/tailwind.css";
 
 export const Button = ({
   children,
@@ -18,7 +19,12 @@ export const Button = ({
     color: primary ? "#ffffff" : color,
   };
   return (
-    <button type="button" onClick={onClick} style={buttonStyles}>
+    <button
+      type="button"
+      onClick={onClick}
+      style={buttonStyles}
+      className="mr-3 ml-6"
+    >
       {children}
     </button>
   );
