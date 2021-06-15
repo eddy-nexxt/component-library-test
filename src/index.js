@@ -7,3 +7,5 @@ export {
   SplitPaneModalContent,
   SplitPaneModalActions,
 } from "./components/SplitPaneModal";
+
+export { Modal, ModalContent, ModalActions } from "./components/Modal";
