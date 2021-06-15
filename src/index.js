@@ -8,4 +8,8 @@ export {
   SplitPaneModalActions,
 } from "./components/SplitPaneModal";
 
-export { Modal, ModalContent, ModalActions } from "./components/Modal";
+export {
+  MiniModal,
+  MiniModalContent,
+  MiniModalActions,
+} from "./components/MiniModal";
